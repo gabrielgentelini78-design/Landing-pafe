@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+.section-border {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card-glow {
+  box-shadow: 0 0 0 1px rgba(242, 193, 79, 0.18), 0 20px 40px rgba(0, 0, 0, 0.35);
+}
